@@ -1,0 +1,106 @@
+/* HAMBURGER MENU */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #c1c1c1;
+    display: block;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#hamburger
+{
+    font-size: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+/* END OF HAMBURGER MENU */
+body
+{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: 10px;
+    font-family: Catamaran;
+}
+
+#main-content
+{
+    width: 100%;
+    height: 100vh;
+    transition: 0.5s;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#profilowe
+{
+    height: 384px;
+    width: 288px;
+    animation: pulse 2s;
+    animation-iteration-count: infinite;
+    border: 2px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+	border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+	border-image-slice: 1;
+}
+
+#profilowe-div
+{
+    text-align: center;
+    width: 100%;
+    height: 540px;
+    width: 540px;
+    margin: 75px auto;
+}
+
+#profilowe-text
+{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#strzalka-w-dol
+{
+    height: 40px;
+    margin-top: 20px;
+}
+
+#email
+{
+    font-size: 11.5px;
+}
